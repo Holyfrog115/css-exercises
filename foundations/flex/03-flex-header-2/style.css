@@ -55,14 +55,7 @@ ul {
   gap: 16px;
 }
 
-.left-links-logo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-}
-
-.right-data {
+.left, .right {
   display: flex;
   justify-content: space-between;
   align-items: center;
