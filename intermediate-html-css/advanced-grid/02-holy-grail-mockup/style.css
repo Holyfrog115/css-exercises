@@ -8,7 +8,7 @@
   display: grid;
   gap: 5px;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 1fr 3fr 1fr;
+  grid-template-rows: 1fr 3rem 8fr 3rem;
 }
 
 .container div {
@@ -67,6 +67,12 @@
 
 .nav {
   background-color: #C50208;
+}
+
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
 }
 
 .nav ul li {
